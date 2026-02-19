@@ -1,13 +1,13 @@
-Employee Management System (EMS) <br>
+<h1>Employee Management System (EMS)</h1> <br>
 A simple React-based Employee Management System where admins can assign tasks to employees, track task status, and employees can view and accept tasks. <br>
-🔹 Features <br>
+🔹 <h1>Features</h1> <br>
 Admin login to manage employees and assign tasks. <br>
 Employee login to view assigned tasks. <br>
 Tasks have status tracking: New, Active, Completed, Failed. <br>
 Task details include title, description, date, category, and priority. <br>
 All data is persisted in localStorage. <br>
 Responsive UI with ask cards for clear visualization. <br>
-🔹 Login Credentials <br>
+🔹 <h1>Login Credentials</h1> <br>
 Admin <br>
 Email: admin@me.com <br>
 Password: 123 <br>
@@ -23,7 +23,7 @@ Password: 123 <br>
 
 ⚠️ Make sure employees exist in the localStorage before logging in as them. Admin can also create tasks for them.
 
-🔹 Installation & Setup <br>
+🔹 <h1>Installation & Setup </h1><br>
 
 Clone the repository: <br>
 git clone https://github.com/saher-asteriskinfinte/Employee-Management-System.git
