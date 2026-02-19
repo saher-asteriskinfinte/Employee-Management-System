@@ -1,16 +1,59 @@
-# React + Vite
+Employee Management System (EMS) <br>
+A simple React-based Employee Management System where admins can assign tasks to employees, track task status, and employees can view and accept tasks. <br>
+🔹 Features <br>
+Admin login to manage employees and assign tasks. <br>
+Employee login to view assigned tasks. <br>
+Tasks have status tracking: New, Active, Completed, Failed. <br>
+Task details include title, description, date, category, and priority. <br>
+All data is persisted in localStorage. <br>
+Responsive UI with ask cards for clear visualization. <br>
+🔹 Login Credentials <br>
+Admin <br>
+Email: admin@me.com <br>
+Password: 123 <br>
+Employee <br>
+Use any employee credentials saved in localStorage (or pre-populated in the app). <br>
+Example:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Name: saher
 
-Currently, two official plugins are available:
+Email: employee1@example.com
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Password: 123 <br>
 
-## React Compiler
+⚠️ Make sure employees exist in the localStorage before logging in as them. Admin can also create tasks for them.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔹 Installation & Setup <br>
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clone the repository: <br>
+git clone https://github.com/saher-asteriskinfinte/Employee-Management-System.git
+Navigate into the project directory: <br>
+cd Employee-Management-System
+Install dependencies: <br>
+npm install
+Start the development server: <br>
+npm run dev
+Open in browser: <br>
+http://localhost:5173
+🔹 Usage <br>
+Admin:
+Login with admin credentials.
+Assign tasks to employees.
+Track all employees’ task status in dashboard.
+Employee:
+Login with employee credentials.
+View assigned tasks in the dashboard.
+Accept or update task status.
+🔹 Technologies Used <br>
+React.js
+JavaScript (ES6+)
+TailwindCSS
+LocalStorage for data persistence
+🔹 Deployment <br>
+Currently runs locally. <br>
+Can be deployed using Vercel, Netlify, or GitHub Pages.
+🔹 Contributions <br>
+Feel free to fork and improve the project. <br>
+Open issues for bugs or feature requests.
+🔹 License <br>
+MIT License .
